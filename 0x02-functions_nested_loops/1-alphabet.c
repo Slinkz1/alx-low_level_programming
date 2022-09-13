@@ -1,11 +1,10 @@
-#include "main.h"
+#include"main.h"
 /**
- * main - Entry point
- * Description:print_alphabets in lower case
+ * print_alphabet - function to print abc
  * followed by a new line.
  * Return:0
  */
-print_alphabet(void)
+void print_alphabet(void)
 {
 	char c = 'a';
 
