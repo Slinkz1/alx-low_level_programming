@@ -5,7 +5,7 @@
  * followed by a new line.
  * Return:0
  */
-init main(void)
+print_alphabet(void)
 {
 	char c = 'a';
 
