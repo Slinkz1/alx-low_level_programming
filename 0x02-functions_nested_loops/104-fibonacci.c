@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - main block
+ * main - find and prints the first 98 fibonacci starting with 1 and 2
  * Description:Progrma that finds and prints
  * the first 98 Fibonacci numbers,
  * starting with 1 and 2, followed by a new line.
