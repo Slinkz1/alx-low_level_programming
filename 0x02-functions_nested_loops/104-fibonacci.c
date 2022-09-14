@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: computes and prints the sum of all the multiples of 3 or
- * 5 below 1024 (excluded), followed by a new line
+ * Description: program that finds and prints the first 98 Fibonacci numbers, 
+ * starting with 1 and 2, followed by a new line.
  * Return: 0
  */
 int main(void)
