@@ -1,34 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #include <time.h>
 /**
  * main - makes something that cracks 101crackme
  * Description: cracking the hacker code
- * Return: returns 0 if no error
+ * Return:0
  */
 int main(void)
 {
-	int ascii = 2772, i = 0, j, random;
-	char password[100];
-	time_t t;
+	int sum;
+	char c;
+
+	srand(time(NULL));
+	while (sum <= 2645)
 	{
-		random = rand() % 126;
-		password[i] = random;
-		ascii -= random;
-		i++;
+		c = rand() % 128;
+		sum += c;
+		putchar(c);
 
 	}
-	if (ascii > 0)
-		password[i] = ascii;
-	else
-	{
-		i--;
-	}
-	for (j = 0; j <= i; j++)
-	{
-		printf("%c", password[j]);
-	}
+	putchar(2772 - sum);
 	return (0);
 }
-
